@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masaje Deportivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: darkcyan;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+       
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin-right: 200px;
+        }
+
+        .column:last-child {
+            margin-right: 0;
+        }
+
+        iframe {
+            width: 100%;
+            
+
+        }
+        button {
+            background-color: rgb(114, 113, 111); /* Color de fondo */
+            border: none; /* Sin borde */
+            color: white; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            text-align: center; /* Alineación del texto */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Mostrar como bloque en línea */
+            font-size: 16px; /* Tamaño de fuente */
+            margin-top: 10px; /* Margen superior */
+            cursor: pointer; /* Cursor de puntero */
+            border-radius: 5px; /* Radio de borde */
+}
+button:hover {
+  background-color: darkcyan;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Masaje deportivo</h1>
+    </header>
+    
+    <main>
+        <aside>
+            <!-- Contenido de tu aside -->
+            <button onclick="window.location.href='contactos/contacto.html'">Contacto</button>
+            <button onclick="window.location.href='index.html'">Principal</button>
+          </aside>
+        
+        <div class="container">
+            <div class="column">
+                
+                <section>
+                    <h2>¿Qué es el masaje deportivo?</h2>
+                    <p>El masaje deportivo es una técnica enfocada en preparar los músculos para el ejercicio, mejorar el rendimiento 
+                        y acelerar la recuperación después de la actividad física. Utiliza movimientos profundos y rápidos para aliviar
+                         la tensión muscular, 
+                        reducir el riesgo de lesiones y mejorar la flexibilidad, especialmente útil para atletas y personas activas.</p>
+                </section>
+                
+                <section>
+                    <h2>Beneficios del masaje deportivo</h2>
+                    <ul>
+                        <li>1.Mejora del rendimiento atlético.</li>
+                        <li>2.Prevención de lesiones.</li>
+                        <li>3.Recuperación más rápida.</li>
+                        <!-- Puedes añadir más beneficios según sea necesario -->
+                    </ul>
+                </section>
+            </div>
+            <div class="column">
+                <h2>Video</h2>
+                <!-- Reemplaza VIDEO_ID con el ID de tu video de YouTube -->
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2YWTMZB0bE8?si=8goZVnkFea2YsQd1&amp;start=13" ç
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+               
+            </div>
+        </div>      
+        
+        
+        
+    </main>
+    
+    <footer>
+        <p>Derechos de autor © 2024 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

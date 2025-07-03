@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masaje Relajante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: darkcyan;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+       
+        
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin-right: 200px;
+        }
+
+        .column:last-child {
+            margin-right: 0;
+        }
+
+        iframe {
+            width: 100%;
+            
+
+        }
+        button {
+            background-color: rgb(114, 113, 111); /* Color de fondo */
+            border: none; /* Sin borde */
+            color: white; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            text-align: center; /* Alineación del texto */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Mostrar como bloque en línea */
+            font-size: 16px; /* Tamaño de fuente */
+            margin-top: 10px; /* Margen superior */
+            cursor: pointer; /* Cursor de puntero */
+            border-radius: 5px; /* Radio de borde */
+}
+button:hover {
+  background-color: darkcyan;
+}
+
+footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Masaje relajante</h1>
+    </header>
+    
+    <main>
+        <aside>
+            <!-- Contenido de tu aside -->
+            <button onclick="window.location.href='../contactos/contacto.html'">Contacto</button>
+            <button onclick="window.location.href='index.html'">Principal</button>
+          </aside>
+        
+        <div class="container">
+            <div class="column">
+                
+                <section>
+                    <h2>¿Qué es el masaje relajante?</h2>
+                    <p> El masaje relajante es una técnica terapéutica que utiliza movimientos 
+                        suaves y fluidos para aliviar la tensión muscular, reducir el estrés y 
+                        promover una sensación general de relajación y bienestar. Se centra en 
+                        calmar el cuerpo y la mente, ayudando a liberar la tensión acumulada y 
+                        a inducir un estado de tranquilidad y relajación profunda.</p>
+                </section>
+                
+                <section>
+                    <h2>Beneficios del masaje relajante</h2>
+                    <ul>
+                        <li>1. Reducción del estrés: El masaje relajante ayuda a disminuir el estrés
+                             y la ansiedad, promoviendo una sensación de calma y bienestar.</li>
+                        <li>2. Mejora del sueño: Favorece un mejor descanso al relajar el cuerpo y la mente, 
+                            lo que puede resultar en un sueño más reparador.</li>
+                        <li>3. Alivio de la tensión muscular: Ayuda a liberar la tensión acumulada en los 
+                            músculos, aliviando dolores y molestias, y mejorando la flexibilidad.</li>
+                       
+                    </ul>
+                </section>
+            </div>
+            <div class="column">
+                <h2>Video</h2>
+                <!-- Reemplaza VIDEO_ID con el ID de tu video de YouTube --><iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/b7Cy_26OQp0?si=DFoUVsuVM9f0aTtu&amp;start=13" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+               
+            </div>
+        </div>      
+        
+        
+        
+    </main>
+    
+    <footer>
+        <p>Derechos de autor © 2024 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
